@@ -29,6 +29,13 @@ CookiePrime intercepts tracking SDKs at runtime initialization.
 
 **Detection methods:** Class loading, DEX scanning, Pattern matching, Reflection.
 
+### 📊 Centralized Compliance Auditing
+* **Live Audit Trail:** Automatically syncs user consent cryptographic flags to your secure dashboard.
+* **Privacy-First Logging:** Full IP anonymization ensures zero PII (Personally Identifiable Information) touches your databases.
+* **Secure Access:** A protected, password-gated compliance portal for real-time reporting during legal or platform audits.
+* Login here for audit: http://34.14.109.247:5000/login
+* Username: partner@cookieprime.com
+
 ## 🔧 One-Line Integration
 
 **Step 1: Add the AAR**
@@ -79,6 +86,12 @@ This SDK is proprietary software.
     Trial/Testing: Use license key TRIAL-12345678 for 30 days free.
     
     Personal/Non-commercial: Free (no license required)
+
+    ### 📜 Commercial License Benefits
+While local on-device blocking works out of the box with the evaluation key, commercial license holders unlock our complete cloud auditing infrastructure:
+- ✅ **Hosted Consent Ledger:** Secure storage of global user decisions.
+- ✅ **Compliance Dashboard:** Password-gated, live-updating visual reports.
+- ✅ **Anonymized Analytics:** Track opt-in/opt-out trends without tracking real people.
 
     Commercial: Commercial license required
 
