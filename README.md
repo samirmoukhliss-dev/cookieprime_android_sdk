@@ -32,12 +32,13 @@ CookiePrime intercepts tracking SDKs at runtime initialization.
 ## 🔧 One-Line Integration
 
 **Step 1: Add the AAR**
+
 ```kotlin
 dependencies {
     implementation files('libs/cookieprime-android-sdk-release.aar')
 }
 
-**Step 2: Initialize (Application class)
+**Step 2: Initialize (Application class)**
 
 public class MyApp extends Application {
     @Override
@@ -47,7 +48,7 @@ public class MyApp extends Application {
     }
 }
 
-**Step 3: Check consent anywhere
+**Step 3: Check consent anywhere**
 
 if (CookiePrime.isConsentGiven("analytics")) {
     // Analytics is safe to use
