@@ -37,6 +37,8 @@ CookiePrime intercepts tracking SDKs at runtime initialization.
 dependencies {
     implementation files('libs/cookieprime-android-sdk-release.aar')
 }
+// Application class
+CookiePrime.init(this, "TRIAL-12345678")
 ```
 
 **Step 2: Initialize (Application class)**
