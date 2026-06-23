@@ -37,8 +37,6 @@ CookiePrime intercepts tracking SDKs at runtime initialization.
 dependencies {
     implementation files('libs/cookieprime-android-sdk-release.aar')
 }
-// Application class
-CookiePrime.init(this, "TRIAL-12345678")
 ```
 
 **Step 2: Initialize (Application class)**
@@ -78,6 +76,8 @@ minSdk	21 (Android 5.0)
 
 This SDK is proprietary software.
 
+    Trial/Testing: Use license key TRIAL-12345678 for 30 days free.
+    
     Personal/Non-commercial: Free (no license required)
 
     Commercial: Commercial license required
