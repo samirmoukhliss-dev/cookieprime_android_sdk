@@ -36,7 +36,8 @@ CookiePrime intercepts tracking SDKs at runtime initialization.
 ```kotlin
 dependencies {
     implementation files('libs/cookieprime-android-sdk-release.aar')
-}```
+}
+```
 
 **Step 2: Initialize (Application class)**
 ```
@@ -46,13 +47,15 @@ public class MyApp extends Application {
         super.onCreate();
         CookiePrime.init(this, "YOUR_LICENSE_KEY");
     }
-}```
+}
+```
 
 **Step 3: Check consent anywhere**
 ```
 if (CookiePrime.isConsentGiven("analytics")) {
     // Analytics is safe to use
-}```
+}
+```
 
 
 🚀 Technical Specs
