@@ -1,0 +1,438 @@
+06-22 21:31:10.149 16402 16402 D CookiePrime: 🚀 Starting CookiePrime initialization with config...
+06-22 21:31:10.225 16402 16422 I CookiePrime: 🍪 Started 30-day free trial
+06-22 21:31:10.234 16402 16424 D CookiePrimeScanner: === STARTING COMPREHENSIVE DEPENDENCY SCAN ===
+06-22 21:31:10.234 16402 16424 D CookiePrimeScanner: Scanning for 27 known SDKs...
+06-22 21:31:10.252 16402 16424 D CookiePrimeScanner: Class loading detection found 2 SDKs
+06-22 21:31:10.277 16402 16424 D CookiePrimeScanner: Package manager detection found 0 SDKs
+06-22 21:31:10.278 16402 16424 D CookiePrimeScanner: ✓ Facebook SDK initialized via reflection
+06-22 21:31:11.322 16402 16402 D ConsentActivity: === ConsentActivity.onCreate() STARTED ===
+06-22 21:31:11.322 16402 16402 D ConsentActivity: Creating programmatic layout
+06-22 21:31:11.404 16402 16402 D ConsentActivity: Setting up RecyclerView
+06-22 21:31:11.407 16402 16402 D ConsentActivity: Loading categories
+06-22 21:31:11.407 16402 16402 D ConsentActivity: Recommended categories: {essential=Essential (Required), analytics=Analytics & Performance, advertising=Personalized Advertising, social=Social Features, performance=Performance Monitoring}
+06-22 21:31:11.408 16402 16402 D ConsentActivity: Created 5 category configs
+06-22 21:31:11.409 16402 16402 D ConsentActivity: Save button enabled: true
+06-22 21:31:11.409 16402 16402 D ConsentActivity: === ConsentActivity.onCreate() COMPLETED ===
+06-22 21:31:13.157 16402 16424 D CookiePrimeScanner: DEX scan found 2 SDKs
+06-22 21:31:13.684 16402 16424 D CookiePrimeScanner: APK scan found 0 SDKs
+06-22 21:31:13.684 16402 16424 D CookiePrimeScanner: 🔍 Scanning for unknown SDKs via patterns...
+06-22 21:31:15.238 16402 16422 D CookiePrime: ✅ CookiePrime initialized with config successfully
+06-22 21:31:16.135 16402 16424 D CookiePrimeScanner: Found 1170 suspicious classes in 39 unknown packages
+06-22 21:31:16.143 16402 16424 D CookiePrimeScanner: Found 0 suspicious packages via APK scan
+06-22 21:31:16.149 16402 16424 D CookiePrimeScanner: Found 3 suspicious permissions in manifest
+06-22 21:31:16.149 16402 16424 D CookiePrimeScanner: Found 24 potential unknown SDKs via patterns
+06-22 21:31:16.149 16402 16424 D CookiePrimeScanner: === SCAN COMPLETED ===
+06-22 21:31:16.149 16402 16424 D CookiePrimeScanner: ✅ Detected 26 SDKs total
+06-22 21:31:16.149 16402 16424 D CookiePrimeScanner:    • Known SDKs: 2
+06-22 21:31:16.149 16402 16424 D CookiePrimeScanner:    • Unknown SDKs: 24
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 📋 Required consent categories: [essential, analytics, performance, advertising, social, unknown, crash_reporting]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: ⚠️ Overall risk: HIGH, Confidence: 66%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: ✅ KNOWN Firebase Analytics
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [analytics, performance]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: ✅ KNOWN Facebook SDK
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [analytics, advertising, social]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 96%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.codeless
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.internal
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashreport
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashshield
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal.logging.dumpsys
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.150 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.ads.identifier
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [advertising]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.internal.measurement
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement.api
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.measurement.internal
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead.internal
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead.subtle
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.daead
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.internal
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [performance]
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.monitoring
+06-22 21:31:16.151 16402 16424 D CookiePrimeScanner:    Categories: [performance]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.streamingaead
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.connector
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - le.firebase.analytics.connector.internal
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.ktx
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK (via permissions)
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 45%
+06-22 21:31:16.152 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:16.243 16402 16424 D CookiePrimeScanner: === STARTING COMPREHENSIVE DEPENDENCY SCAN ===
+06-22 21:31:16.243 16402 16424 D CookiePrimeScanner: Scanning for 27 known SDKs...
+06-22 21:31:16.245 16402 16424 D CookiePrimeScanner: Class loading detection found 2 SDKs
+06-22 21:31:16.250 16402 16424 D CookiePrimeScanner: Package manager detection found 0 SDKs
+06-22 21:31:16.251 16402 16424 D CookiePrimeScanner: ✓ Facebook SDK initialized via reflection
+06-22 21:31:16.358 16402 16422 D CookiePrimeScanner: === STARTING COMPREHENSIVE DEPENDENCY SCAN ===
+06-22 21:31:16.358 16402 16422 D CookiePrimeScanner: Scanning for 27 known SDKs...
+06-22 21:31:16.360 16402 16422 D CookiePrimeScanner: Class loading detection found 2 SDKs
+06-22 21:31:16.361 16402 16422 D CookiePrimeScanner: Package manager detection found 0 SDKs
+06-22 21:31:16.361 16402 16422 D CookiePrimeScanner: ✓ Facebook SDK initialized via reflection
+06-22 21:31:16.608 16402 16424 D CookiePrimeScanner: DEX scan found 2 SDKs
+06-22 21:31:16.667 16402 16424 D CookiePrimeScanner: APK scan found 0 SDKs
+06-22 21:31:16.667 16402 16424 D CookiePrimeScanner: 🔍 Scanning for unknown SDKs via patterns...
+06-22 21:31:16.712 16402 16422 D CookiePrimeScanner: DEX scan found 2 SDKs
+06-22 21:31:16.749 16402 16422 D CookiePrimeScanner: APK scan found 0 SDKs
+06-22 21:31:16.749 16402 16422 D CookiePrimeScanner: 🔍 Scanning for unknown SDKs via patterns...
+06-22 21:31:18.268 16402 16402 D ConsentActivity: Accept All button clicked!
+06-22 21:31:18.268 16402 16402 D ConsentActivity: onAcceptAllClicked()
+06-22 21:31:18.269 16402 16402 D ConsentActivity: Save button enabled: true
+06-22 21:31:18.961 16402 16424 D CookiePrimeScanner: Found 1170 suspicious classes in 39 unknown packages
+06-22 21:31:18.969 16402 16424 D CookiePrimeScanner: Found 0 suspicious packages via APK scan
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: Found 3 suspicious permissions in manifest
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: Found 24 potential unknown SDKs via patterns
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: === SCAN COMPLETED ===
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: ✅ Detected 26 SDKs total
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner:    • Known SDKs: 2
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner:    • Unknown SDKs: 24
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: 📋 Required consent categories: [essential, analytics, performance, advertising, social, unknown, crash_reporting]
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: ⚠️ Overall risk: HIGH, Confidence: 66%
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner: ✅ KNOWN Firebase Analytics
+06-22 21:31:18.974 16402 16424 D CookiePrimeScanner:    Categories: [analytics, performance]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: ✅ KNOWN Facebook SDK
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [analytics, advertising, social]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 96%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.codeless
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.internal
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashreport
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashshield
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal.logging.dumpsys
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.ads.identifier
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [advertising]
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.internal.measurement
+06-22 21:31:18.975 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement.api
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.measurement.internal
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead.internal
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead.subtle
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.daead
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.internal
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [performance]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.monitoring
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [performance]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.streamingaead
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.connector
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.976 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - le.firebase.analytics.connector.internal
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.ktx
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK (via permissions)
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 45%
+06-22 21:31:18.977 16402 16424 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.081 16402 16422 D CookiePrimeScanner: Found 1170 suspicious classes in 39 unknown packages
+06-22 21:31:19.089 16402 16422 D CookiePrimeScanner: Found 0 suspicious packages via APK scan
+06-22 21:31:19.091 16402 16422 D CookiePrimeScanner: Found 3 suspicious permissions in manifest
+06-22 21:31:19.091 16402 16422 D CookiePrimeScanner: Found 24 potential unknown SDKs via patterns
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: === SCAN COMPLETED ===
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: ✅ Detected 26 SDKs total
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    • Known SDKs: 2
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    • Unknown SDKs: 24
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: 📋 Required consent categories: [essential, analytics, performance, advertising, social, unknown, crash_reporting]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: ⚠️ Overall risk: HIGH, Confidence: 66%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: ✅ KNOWN Firebase Analytics
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Categories: [analytics, performance]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: ✅ KNOWN Facebook SDK
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Categories: [analytics, advertising, social]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Risk: HIGH, Confidence: 96%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.codeless
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.internal
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.092 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashreport
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashshield
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal.logging.dumpsys
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.ads.identifier
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [advertising]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.internal.measurement
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement.api
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.measurement.internal
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead.internal
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.aead.subtle
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.daead
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.093 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.internal
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [performance]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.monitoring
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [performance]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.crypto.tink.streamingaead
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.connector
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - le.firebase.analytics.connector.internal
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.ktx
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [analytics]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK (via permissions)
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Categories: [unknown]
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 45%
+06-22 21:31:19.094 16402 16422 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 21:31:19.652 16402 16402 D ConsentActivity: Save button clicked!
+06-22 21:31:19.652 16402 16402 D ConsentActivity: onSaveClicked() - Saving: {essential=true, analytics=true, advertising=true, social=true, performance=true}
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: 🛡️ === CONFIGURING SDKs BASED ON CONSENT ===
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: 📋 Consent map: {essential=true, analytics=true, advertising=true, social=true, performance=true, ad_storage=true, analytics_storage=true, ad_user_data=true, ad_personalization=true}
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'essential': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'analytics': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'advertising': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'social': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'performance': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'ad_storage': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'analytics_storage': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'ad_user_data': SDKs ALLOWED
+06-22 21:31:19.674 16402 16423 D CookiePrimeBlock: ✅ Category 'ad_personalization': SDKs ALLOWED
+06-22 21:31:19.681 16402 16423 D CookiePrimeBlock:    🔧 Firebase Analytics collection: true
+06-22 21:31:19.681 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Firebase Analytics
+06-22 21:31:19.681 16402 16423 D CookiePrimeBlock:    🔧 Facebook AutoLog: true
+06-22 21:31:19.681 16402 16423 D CookiePrimeBlock:    🔧 Facebook AdvertiserCollection: true
+06-22 21:31:19.682 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Facebook SDK
+06-22 21:31:19.683 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Google AdMob
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock: ❌ Adapter Unity Ads failed: Unity Ads configuration failed: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock: java.lang.RuntimeException: Unity Ads configuration failed: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.UnityAdsAdapter.applyConsent(SourceFile:14)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.SDKConfigurator.configureAllSDKs(SourceFile:735)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at b.l.invokeSuspend(SourceFile:1997)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock: Caused by: java.lang.ClassNotFoundException: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at java.lang.Class.classForName(Native Method)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at java.lang.Class.forName(Class.java:591)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at java.lang.Class.forName(Class.java:496)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.UnityAdsAdapter.applyConsent(SourceFile:2)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      ... 10 more
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.unity3d.ads.metadata.PrivacyMetaData" on path: DexPathList[[zip file "/data/app/~~1I8A7Jm9CJpm8FdnxVtFxA==/com.techsoldev.tictactoegame-EswO_oGh-EXTfsTabCwubQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~1I8A7Jm9CJpm8FdnxVtFxA==/com.techsoldev.tictactoegame-EswO_oGh-EXTfsTabCwubQ==/lib/arm64, /data/app/~~1I8A7Jm9CJpm8FdnxVtFxA==/com.techsoldev.tictactoegame-EswO_oGh-EXTfsTabCwubQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+06-22 21:31:19.686 16402 16423 E CookiePrimeBlock:      ... 14 more
+06-22 21:31:19.687 16402 16423 D CookiePrimeBlock:    🔧 AppsFlyer tracking enabled
+06-22 21:31:19.687 16402 16423 D CookiePrimeBlock: ✅ Successfully configured AppsFlyer
+06-22 21:31:19.687 16402 16423 W CookiePrimeBlock:    ⚠️ Mixpanel configuration skipped (may not be in app)
+06-22 21:31:19.687 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Mixpanel
+06-22 21:31:19.687 16402 16423 W CookiePrimeBlock:    ⚠️ Amplitude configuration skipped (may not be in app)
+06-22 21:31:19.687 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Amplitude
+06-22 21:31:19.687 16402 16423 W CookiePrimeBlock:    ⚠️ Google Analytics configuration skipped (may not be in app)
+06-22 21:31:19.687 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Google Analytics (Legacy)
+06-22 21:31:19.687 16402 16423 D CookiePrimeBlock:    🔧 Unknown SDKs handling: BLOCKED
+06-22 21:31:19.688 16402 16423 W CookiePrimeBlock:    ⚠️ Unknown SDKs detected but cannot be blocked automatically
+06-22 21:31:19.688 16402 16423 W CookiePrimeBlock:    ⚠️ User should manually check app permissions and tracking
+06-22 21:31:19.690 16402 16423 D CookiePrimeBlock: ✅ Successfully configured Unknown/Other SDKs
+06-22 21:31:19.690 16402 16423 D CookiePrimeBlock: 📊 Configuration complete: 8 successful, 1 failed
+06-22 21:31:19.690 16402 16423 D CookiePrimeBlock: ✅ SDK configuration completed
+06-22 21:31:19.701 16402 16423 D ConsentActivity: Consent saved successfully

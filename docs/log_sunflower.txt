@@ -1,0 +1,353 @@
+C:\adb>C:\adb\adb logcat -s "CookiePrime" -s "CookiePrimeBlock" -s "CookiePrimeDebug" -s "CookiePrimeScanner" -s "ConsentActivity" -v color
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+- waiting for device -
+--------- beginning of main
+06-22 20:13:12.716 28945 28945 D CookiePrime: 🌻 === SUNFLOWER APP STARTING ===
+06-22 20:13:12.717 28945 28945 D CookiePrime: 🚀 Starting CookiePrime initialization with config...
+06-22 20:13:12.741 28945 28945 D CookiePrime: ✅ ONE-LINER EXECUTED: CookiePrime.init()
+06-22 20:13:12.752 28945 28945 D CookiePrime: 🌻 === APP READY ===
+06-22 20:13:12.828 28945 28963 D CookiePrimeScanner: === STARTING COMPREHENSIVE DEPENDENCY SCAN ===
+06-22 20:13:12.828 28945 28963 D CookiePrimeScanner: Scanning for 27 known SDKs...
+06-22 20:13:12.834 28945 28963 D CookiePrimeScanner: Class loading detection found 3 SDKs
+06-22 20:13:12.844 28945 28963 D CookiePrimeScanner: Package manager detection found 0 SDKs
+06-22 20:13:13.885 28945 28963 D CookiePrimeScanner: DEX scan found 3 SDKs
+06-22 20:13:14.016 28945 28963 D CookiePrimeScanner: APK scan found 0 SDKs
+06-22 20:13:14.016 28945 28963 D CookiePrimeScanner: 🔍 Scanning for unknown SDKs via patterns...
+06-22 20:13:14.048 28945 28945 D CookiePrime: 🔍 Checking consent in Sunflower...
+06-22 20:13:14.048 28945 28945 D CookiePrime: ❌ Analytics tracking DISABLED in Sunflower
+06-22 20:13:15.760 28945 28945 I CookiePrime: 🔧 DEBUG MODE: SDK will show proactive configuration warnings
+06-22 20:13:15.760 28945 28945 I CookiePrime: ✅ Google Consent Mode v2: All 4 signals will be added automatically
+06-22 20:13:15.760 28945 28945 I CookiePrime: ✅ IAB TCF: CMP ID dMjJjND embedded
+06-22 20:13:16.117 28945 28945 D ConsentActivity: === ConsentActivity.onCreate() STARTED ===
+06-22 20:13:16.117 28945 28945 D ConsentActivity: Creating programmatic layout
+06-22 20:13:16.191 28945 28945 D ConsentActivity: Setting up RecyclerView
+06-22 20:13:16.195 28945 28945 D ConsentActivity: Loading categories
+06-22 20:13:16.196 28945 28945 D ConsentActivity: Recommended categories: {essential=Essential (Required), analytics=Analytics & Performance, advertising=Personalized Advertising, social=Social Features, performance=Performance Monitoring}
+06-22 20:13:16.197 28945 28945 D ConsentActivity: Created 5 category configs
+06-22 20:13:16.197 28945 28945 D ConsentActivity: Save button enabled: true
+06-22 20:13:16.197 28945 28945 D ConsentActivity: === ConsentActivity.onCreate() COMPLETED ===
+06-22 20:13:16.288 28945 28963 D CookiePrimeScanner: Found 1053 suspicious classes in 32 unknown packages
+06-22 20:13:16.296 28945 28963 D CookiePrimeScanner: Found 0 suspicious packages via APK scan
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: Found 3 suspicious permissions in manifest
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: Found 18 potential unknown SDKs via patterns
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: === SCAN COMPLETED ===
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: ✅ Detected 21 SDKs total
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner:    • Known SDKs: 3
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner:    • Unknown SDKs: 18
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: 📋 Required consent categories: [essential, analytics, performance, advertising, social, unknown, crash_reporting]
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: ⚠️ Overall risk: HIGH, Confidence: 68%
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner: ✅ KNOWN Firebase Analytics
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner:    Categories: [analytics, performance]
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 20:13:16.301 28945 28963 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: ✅ KNOWN Facebook SDK
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [analytics, advertising, social]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 96%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: ✅ KNOWN Mixpanel
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.codeless
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.internal
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashreport
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashshield
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal.logging.dumpsys
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.ads.identifier
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [advertising]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.internal.measurement
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.302 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement.api
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.measurement.internal
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.connector
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - le.firebase.analytics.connector.internal
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.ktx
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.mixpanel.android.mpmetrics
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK (via permissions)
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 45%
+06-22 20:13:16.303 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:16.305 28945 29004 D CookiePrime: ✅ CookiePrime initialized with config successfully
+06-22 20:13:16.858 28945 28963 D CookiePrimeScanner: === STARTING COMPREHENSIVE DEPENDENCY SCAN ===
+06-22 20:13:16.858 28945 28963 D CookiePrimeScanner: Scanning for 27 known SDKs...
+06-22 20:13:16.862 28945 28963 D CookiePrimeScanner: Class loading detection found 3 SDKs
+06-22 20:13:16.866 28945 28963 D CookiePrimeScanner: Package manager detection found 0 SDKs
+06-22 20:13:17.692 28945 28963 D CookiePrimeScanner: DEX scan found 3 SDKs
+06-22 20:13:17.737 28945 28963 D CookiePrimeScanner: APK scan found 0 SDKs
+06-22 20:13:17.737 28945 28963 D CookiePrimeScanner: 🔍 Scanning for unknown SDKs via patterns...
+06-22 20:13:19.771 28945 28963 D CookiePrimeScanner: Found 1053 suspicious classes in 32 unknown packages
+06-22 20:13:19.779 28945 28963 D CookiePrimeScanner: Found 0 suspicious packages via APK scan
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: Found 3 suspicious permissions in manifest
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: Found 18 potential unknown SDKs via patterns
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: === SCAN COMPLETED ===
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: ✅ Detected 21 SDKs total
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    • Known SDKs: 3
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    • Unknown SDKs: 18
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: 📋 Required consent categories: [essential, analytics, performance, advertising, social, unknown, crash_reporting]
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: ⚠️ Overall risk: HIGH, Confidence: 68%
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: ✅ KNOWN Firebase Analytics
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Categories: [analytics, performance]
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: ✅ KNOWN Facebook SDK
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Categories: [analytics, advertising, social]
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 96%
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner: ✅ KNOWN Mixpanel
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.784 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 96%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: CLASS_LOADING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.codeless
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.appevents.internal
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashreport
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - facebook.internal.instrument.crashshield
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [crash_reporting]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: LOW, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.facebook.internal.logging.dumpsys
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.ads.identifier
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [advertising]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.internal.measurement
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.android.gms.measurement.api
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - .google.android.gms.measurement.internal
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.785 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.connector
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - le.firebase.analytics.connector.internal
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.google.firebase.analytics.ktx
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Risk: HIGH, Confidence: 65%
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK - com.mixpanel.android.mpmetrics
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Categories: [analytics]
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 65%
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner: 🕵️ UNKNOWN Unknown SDK (via permissions)
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Categories: [unknown]
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Risk: MEDIUM, Confidence: 45%
+06-22 20:13:19.786 28945 28963 D CookiePrimeScanner:    Method: PATTERN_MATCHING
+06-22 20:13:21.689 28945 28945 D ConsentActivity: Accept All button clicked!
+06-22 20:13:21.689 28945 28945 D ConsentActivity: onAcceptAllClicked()
+06-22 20:13:21.690 28945 28945 D ConsentActivity: Save button enabled: true
+06-22 20:13:23.618 28945 28945 D ConsentActivity: Save button clicked!
+06-22 20:13:23.618 28945 28945 D ConsentActivity: onSaveClicked() - Saving: {essential=true, analytics=true, advertising=true, social=true, performance=true}
+06-22 20:13:23.639 28945 28963 D CookiePrimeBlock: 🛡️ === CONFIGURING SDKs BASED ON CONSENT ===
+06-22 20:13:23.639 28945 28963 D CookiePrimeBlock: 📋 Consent map: {essential=true, analytics=true, advertising=true, social=true, performance=true, ad_storage=true, analytics_storage=true, ad_user_data=true, ad_personalization=true}
+06-22 20:13:23.639 28945 28963 D CookiePrimeBlock: ✅ Category 'essential': SDKs ALLOWED
+06-22 20:13:23.639 28945 28963 D CookiePrimeBlock: ✅ Category 'analytics': SDKs ALLOWED
+06-22 20:13:23.639 28945 28963 D CookiePrimeBlock: ✅ Category 'advertising': SDKs ALLOWED
+06-22 20:13:23.639 28945 28963 D CookiePrimeBlock: ✅ Category 'social': SDKs ALLOWED
+06-22 20:13:23.640 28945 28963 D CookiePrimeBlock: ✅ Category 'performance': SDKs ALLOWED
+06-22 20:13:23.640 28945 28963 D CookiePrimeBlock: ✅ Category 'ad_storage': SDKs ALLOWED
+06-22 20:13:23.640 28945 28963 D CookiePrimeBlock: ✅ Category 'analytics_storage': SDKs ALLOWED
+06-22 20:13:23.640 28945 28963 D CookiePrimeBlock: ✅ Category 'ad_user_data': SDKs ALLOWED
+06-22 20:13:23.640 28945 28963 D CookiePrimeBlock: ✅ Category 'ad_personalization': SDKs ALLOWED
+06-22 20:13:23.647 28945 28963 D CookiePrimeBlock:    🔧 Firebase Analytics collection: true
+06-22 20:13:23.647 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Firebase Analytics
+06-22 20:13:23.653 28945 28963 D CookiePrimeBlock:    ⚠️ Could not set AutoLog: null
+06-22 20:13:23.653 28945 28963 D CookiePrimeBlock:    🔧 Facebook AdvertiserCollection: true
+06-22 20:13:23.653 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Facebook SDK
+06-22 20:13:23.656 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Google AdMob
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock: ❌ Adapter Unity Ads failed: Unity Ads configuration failed: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock: java.lang.RuntimeException: Unity Ads configuration failed: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.UnityAdsAdapter.applyConsent(SourceFile:14)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.SDKConfigurator.configureAllSDKs(SourceFile:735)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at b.l.invokeSuspend(SourceFile:1997)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:585)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:802)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:706)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:693)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock: Caused by: java.lang.ClassNotFoundException: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at java.lang.Class.classForName(Native Method)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at java.lang.Class.forName(Class.java:591)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at java.lang.Class.forName(Class.java:496)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.UnityAdsAdapter.applyConsent(SourceFile:2)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      ... 10 more
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.unity3d.ads.metadata.PrivacyMetaData" on path: DexPathList[[zip file "/data/app/~~AEvbonJegDQX5wk0dJHm3g==/com.google.samples.apps.sunflower-6rLvh87qhsyDAN8oYJ7Vpw==/base.apk"],nativeLibraryDirectories=[/data/app/~~AEvbonJegDQX5wk0dJHm3g==/com.google.samples.apps.sunflower-6rLvh87qhsyDAN8oYJ7Vpw==/lib/arm64, /system/lib64, /system_ext/lib64]]
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+06-22 20:13:23.660 28945 28963 E CookiePrimeBlock:      ... 14 more
+06-22 20:13:23.660 28945 28963 D CookiePrimeBlock:    🔧 AppsFlyer tracking enabled
+06-22 20:13:23.660 28945 28963 D CookiePrimeBlock: ✅ Successfully configured AppsFlyer
+06-22 20:13:23.662 28945 28963 W CookiePrimeBlock:    ⚠️ Mixpanel configuration skipped (may not be in app)
+06-22 20:13:23.662 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Mixpanel
+06-22 20:13:23.662 28945 28963 W CookiePrimeBlock:    ⚠️ Amplitude configuration skipped (may not be in app)
+06-22 20:13:23.662 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Amplitude
+06-22 20:13:23.662 28945 28963 W CookiePrimeBlock:    ⚠️ Google Analytics configuration skipped (may not be in app)
+06-22 20:13:23.662 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Google Analytics (Legacy)
+06-22 20:13:23.662 28945 28963 D CookiePrimeBlock:    🔧 Unknown SDKs handling: BLOCKED
+06-22 20:13:23.663 28945 28963 W CookiePrimeBlock:    ⚠️ Unknown SDKs detected but cannot be blocked automatically
+06-22 20:13:23.663 28945 28963 W CookiePrimeBlock:    ⚠️ User should manually check app permissions and tracking
+06-22 20:13:23.666 28945 28963 D CookiePrimeBlock: ✅ Successfully configured Unknown/Other SDKs
+06-22 20:13:23.666 28945 28963 D CookiePrimeBlock: 📊 Configuration complete: 8 successful, 1 failed
+06-22 20:13:23.666 28945 28963 D CookiePrimeBlock: ✅ SDK configuration completed
+06-22 20:13:23.900 28945 29023 D ConsentActivity: Consent saved successfully
+06-22 20:16:14.357 28945 28945 D CookiePrime: 🎯 Consent dialog shown
+06-22 20:16:14.374 28945 28945 D ConsentActivity: === ConsentActivity.onCreate() STARTED ===
+06-22 20:16:14.374 28945 28945 D ConsentActivity: Creating programmatic layout
+06-22 20:16:14.385 28945 28945 D ConsentActivity: Setting up RecyclerView
+06-22 20:16:14.385 28945 28945 D ConsentActivity: Loading categories
+06-22 20:16:14.386 28945 28945 D ConsentActivity: Recommended categories: {essential=Essential, analytics=Analytics & Performance, performance=Performance Monitoring, advertising=Personalized Advertising, social=Social Features, unknown=Other Tracking Technologies, crash_reporting=Crash Reporting}
+06-22 20:16:14.386 28945 28945 D ConsentActivity: Created 7 category configs
+06-22 20:16:14.386 28945 28945 D ConsentActivity: Save button enabled: true
+06-22 20:16:14.386 28945 28945 D ConsentActivity: === ConsentActivity.onCreate() COMPLETED ===
+06-22 20:16:16.852 28945 28945 D ConsentActivity: Save button clicked!
+06-22 20:16:16.852 28945 28945 D ConsentActivity: onSaveClicked() - Saving: {essential=true, analytics=true, performance=true, advertising=false, social=false, unknown=true, crash_reporting=true}
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: 🛡️ === CONFIGURING SDKs BASED ON CONSENT ===
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: 📋 Consent map: {essential=true, analytics=true, performance=true, advertising=false, social=false, unknown=true, crash_reporting=true, ad_storage=false, analytics_storage=true, ad_user_data=false, ad_personalization=false}
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ✅ Category 'essential': SDKs ALLOWED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ✅ Category 'analytics': SDKs ALLOWED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ✅ Category 'performance': SDKs ALLOWED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ❌ Category 'advertising': SDKs BLOCKED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ❌ Category 'social': SDKs BLOCKED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ✅ Category 'unknown': SDKs ALLOWED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ✅ Category 'crash_reporting': SDKs ALLOWED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ❌ Category 'ad_storage': SDKs BLOCKED
+06-22 20:16:16.880 28945 29004 D CookiePrimeBlock: ✅ Category 'analytics_storage': SDKs ALLOWED
+06-22 20:16:16.881 28945 29004 D CookiePrimeBlock: ❌ Category 'ad_user_data': SDKs BLOCKED
+06-22 20:16:16.881 28945 29004 D CookiePrimeBlock: ❌ Category 'ad_personalization': SDKs BLOCKED
+06-22 20:16:16.882 28945 29004 D CookiePrimeBlock:    🔧 Firebase Analytics collection: true
+06-22 20:16:16.882 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Firebase Analytics
+06-22 20:16:16.886 28945 29004 D CookiePrimeBlock:    ⚠️ Could not set AutoLog: null
+06-22 20:16:16.886 28945 29004 D CookiePrimeBlock:    🔧 Facebook AdvertiserCollection: false
+06-22 20:16:16.886 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Facebook SDK
+06-22 20:16:16.887 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Google AdMob
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock: ❌ Adapter Unity Ads failed: Unity Ads configuration failed: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock: java.lang.RuntimeException: Unity Ads configuration failed: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.UnityAdsAdapter.applyConsent(SourceFile:14)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.SDKConfigurator.configureAllSDKs(SourceFile:735)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at b.l.invokeSuspend(SourceFile:1997)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:585)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:802)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:706)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:693)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock: Caused by: java.lang.ClassNotFoundException: com.unity3d.ads.metadata.PrivacyMetaData
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at java.lang.Class.classForName(Native Method)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at java.lang.Class.forName(Class.java:591)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at java.lang.Class.forName(Class.java:496)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at com.cookieprime.consent.configuration.UnityAdsAdapter.applyConsent(SourceFile:2)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      ... 10 more
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.unity3d.ads.metadata.PrivacyMetaData" on path: DexPathList[[zip file "/data/app/~~AEvbonJegDQX5wk0dJHm3g==/com.google.samples.apps.sunflower-6rLvh87qhsyDAN8oYJ7Vpw==/base.apk"],nativeLibraryDirectories=[/data/app/~~AEvbonJegDQX5wk0dJHm3g==/com.google.samples.apps.sunflower-6rLvh87qhsyDAN8oYJ7Vpw==/lib/arm64, /system/lib64, /system_ext/lib64]]
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at java.lang.ClassLoader.loadClass(ClassLoader.java:642)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      at java.lang.ClassLoader.loadClass(ClassLoader.java:578)
+06-22 20:16:16.888 28945 29004 E CookiePrimeBlock:      ... 14 more
+06-22 20:16:16.888 28945 29004 D CookiePrimeBlock:    🔧 AppsFlyer tracking enabled
+06-22 20:16:16.888 28945 29004 D CookiePrimeBlock: ✅ Successfully configured AppsFlyer
+06-22 20:16:16.888 28945 29004 W CookiePrimeBlock:    ⚠️ Mixpanel configuration skipped (may not be in app)
+06-22 20:16:16.888 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Mixpanel
+06-22 20:16:16.889 28945 29004 W CookiePrimeBlock:    ⚠️ Amplitude configuration skipped (may not be in app)
+06-22 20:16:16.889 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Amplitude
+06-22 20:16:16.889 28945 29004 W CookiePrimeBlock:    ⚠️ Google Analytics configuration skipped (may not be in app)
+06-22 20:16:16.889 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Google Analytics (Legacy)
+06-22 20:16:16.889 28945 29004 D CookiePrimeBlock:    🔧 Unknown SDKs handling: ALLOWED
+06-22 20:16:16.889 28945 29004 D CookiePrimeBlock: ✅ Successfully configured Unknown/Other SDKs
+06-22 20:16:16.889 28945 29004 D CookiePrimeBlock: 📊 Configuration complete: 8 successful, 1 failed
+06-22 20:16:16.889 28945 29004 D CookiePrimeBlock: ✅ SDK configuration completed
+06-22 20:16:17.188 28945 29004 D ConsentActivity: Consent saved successfully
