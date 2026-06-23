@@ -58,7 +58,9 @@ if (CookiePrime.isConsentGiven("analytics")) {
 ```
 
 
+
 🚀 Technical Specs
+
 
 Metric	Value
 AAR Size	380KB
@@ -67,7 +69,10 @@ Integration	< 10 minutes
 minSdk	21 (Android 5.0)
 
 
+
+
 🛡️ Legal & Copyright
+
 
 This SDK is proprietary software.
 
