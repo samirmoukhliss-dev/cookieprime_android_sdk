@@ -94,6 +94,7 @@ While local on-device blocking works out of the box with the evaluation key, com
 - ✅ **Anonymized Analytics:** Track opt-in/opt-out trends without tracking real people.
 
     Commercial: Commercial license required
+   https://cookieprime.com/android-sdk.html
 
 Contact: contact@cookieprime.com
 
